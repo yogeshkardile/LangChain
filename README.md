@@ -1,3 +1,3 @@
 ### LangChain Tutorial
 
-1 . [Introduction to LangChain][Introduction-LangChain]
+1 . [Introduction to LangChain](Introduction-LangChain)

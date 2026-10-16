@@ -1,0 +1,12 @@
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from dotenv import load_dotenv
+
+load_dotenv()
+
+llm = HuggingFaceEndpoint(model='Qwen/Qwen3.8-27B',task='text-generation')
+
+model = ChatHuggingFace(llm=llm)
+
+result = model.invoke('what is capital of India')
+
+print(result)
